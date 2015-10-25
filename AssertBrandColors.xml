@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Marriott BAT" parallel="tests">
+	<!--  
+	<test name="Assert Brand Colors">
+		<parameter name="targetEnvironment" value="iPad Air" />
+		<parameter name="imageMatch" value="true" />
+		<classes>
+			<class name="test.java.AssertBrandColors">
+			    <methods>
+			        <include name="VerifyBrandColors" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+	
+	-->
+	
+	<test name="Assert Brand Colors">
+		<parameter name="targetEnvironment" value="iPad Air" />
+		<parameter name="imageMatch" value="false" />
+		<classes>
+			<class name="test.java.AssertBrandColors">
+			    <methods>
+			        <include name="VerifyBrandColors" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+
+
+</suite> 
