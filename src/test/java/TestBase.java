@@ -27,9 +27,9 @@ public class TestBase {
 		RemoteWebDriver driver;
 		public DesiredCapabilities capabilities;
 		Map<String, Object> perfectoCommand = new HashMap<>();
-		String user = "test_automation@gmail.com";
-		String password = "Test_automation";
-		String host = "branchtest.perfectomobile.com";
+		String user = "username@gmail.com";
+		String password = "password";
+		String host = "cloud.perfectomobile.com";
 		protected SoftAssert softAssert = new SoftAssert();
 			
 		@Parameters({ "targetEnvironment" })
